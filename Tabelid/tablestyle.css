@@ -125,12 +125,12 @@ td{
 }
 #iceland tr:nth-child(1) td:nth-child(1){
 	background-color: blue;
-	width: 25%;
+	width: 15%;
 	height: 35%;
 }
 #iceland tr:nth-child(1) td:nth-child(2){
 	background-color: white;
-	width: 5%;
+	width: min-width;
 }
 #iceland tr:nth-child(1) td:nth-child(3){
 	background-color: red;
@@ -139,14 +139,14 @@ td{
 }
 #iceland tr:nth-child(1) td:nth-child(4){
 	background-color: white;
-	width: 10%;
+	width: min-width;
 }
 #iceland tr:nth-child(1) td:nth-child(5){
 	background-color: blue;
 }
 #iceland tr:nth-child(2) td:nth-child(1){
 	background-color: white;
-	width: 5%;
+	width: min-width;
 	height: 5%;
 }
 #iceland tr:nth-child(2) td:nth-child(2){
@@ -155,14 +155,15 @@ td{
 }
 #iceland tr:nth-child(2) td:nth-child(3){
 	background-color: white;
+	width: min-width;
 }
 #iceland tr:nth-child(3){
 	background-color: red;
-	height:10%;
+	height:15%;
 }
 #iceland tr:nth-child(4) td:nth-child(1){
 	background-color: white;
-	width: 5%;
+	width: min-width;
 	height: 5%;
 }
 #iceland tr:nth-child(4) td:nth-child(2){
@@ -171,6 +172,7 @@ td{
 }
 #iceland tr:nth-child(4) td:nth-child(3){
 	background-color: white;
+	width: 3%;
 }
 #iceland tr:nth-child(5) td:nth-child(1){
 	background-color: blue;
@@ -178,7 +180,7 @@ td{
 }
 #iceland tr:nth-child(5) td:nth-child(2){
 	background-color: white;
-	width: 10%;
+	width: 3%;
 }
 #iceland tr:nth-child(5) td:nth-child(3){
 	background-color: red;
@@ -186,10 +188,9 @@ td{
 }
 #iceland tr:nth-child(5) td:nth-child(4){
 	background-color: white;
-	width: 10%;
+	width: 3%;
 }
 #iceland tr:nth-child(5) td:nth-child(5){
 	background-color: blue;
 }
-
 
