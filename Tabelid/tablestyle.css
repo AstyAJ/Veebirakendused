@@ -1,0 +1,195 @@
+table{
+	width: 40%; /*40% ekraani laiust*/
+	height: 200px; /*pikkus*/
+	border: 1pt solid purple;
+}
+td{
+	border: 1pt solid purple;
+	text-align: center; /*выравнивание текста*/
+}
+/*1.rida- обращение к первой строке*/
+#tabel1 tr:nth-child(1) td:nth-child(1){
+	background-color: #5ca3ff;
+}
+/*2.rida- обращение ко второй строке*/
+#tabel1 tr:nth-child(1) td:nth-child(2){
+	background-color: pink;
+}
+/*3.rida- обращение к третьей строке*/
+#tabel1 tr:nth-child(2) td:nth-child(1){
+	background-color: pink;
+}
+/*4.rida- обращение к четвёртой строке*/
+#tabel1 tr:nth-child(2) td:nth-child(2){
+	background-color: #5ca3ff;
+}
+/*5.rida- обращение к пятой строке*/
+#tabel1 tr:nth-child(1) td:nth-child(3){
+	background-color: #5ca3ff;
+}
+/*1.rida- обращение к шестой строке*/
+#tabel1 tr:nth-child(2) td:nth-child(3){
+	background-color: pink;
+}
+#eesti{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px; /*pikkus*/
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#eesti td{
+	border:0;
+}
+#eesti tr:nth-child(1){
+	background-color: blue;
+}
+#eesti tr:nth-child(2){
+	background-color: black;
+}
+#eesti tr:nth-child(3){
+	background-color: white;
+}
+/*--------------Soome lipp----------------*/
+#soome{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px; /*pikkus*/
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#soome td{
+	border:0;
+}
+#soome tr:nth-child(1) td:nth-child(1),
+#soome tr:nth-child(3) td:nth-child(1){
+	background-color: white;
+	width: 25%;
+}
+#soome tr:nth-child(1) td:nth-child(2),
+#soome tr:nth-child(3) td:nth-child(2){
+	background-color: blue;
+	width: 15%;
+}
+#soome tr:nth-child(2){
+	background-color: blue;
+	height:22%;
+}
+#soome tr:nth-child(1) td:nth-child(3),
+#soome tr:nth-child(3) td:nth-child(3){
+	background-color: white;
+}
+
+#palett{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px; /*pikkus*/
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#palett td{
+	border:0;
+}
+#palett tr:nth-child(1){
+	background-color: #00ffff;
+}
+#palett tr:nth-child(2){
+	background-color: #52adff;
+}
+#palett tr:nth-child(3){
+	background-color: #9966ff;
+}
+#italia{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px; /*pikkus*/
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#italia td{
+	border:0;
+}
+#italia tr:nth-child(1) td:nth-child(1){
+	background-color: green;
+}
+#italia tr:nth-child(1) td:nth-child(2){
+	background-color: white;
+}
+#italia tr:nth-child(1) td:nth-child(3){
+	background-color: red;
+}
+#iceland{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px; /*pikkus*/
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#iceland td{
+	border:0;
+}
+#iceland tr:nth-child(1) td:nth-child(1){
+	background-color: blue;
+	width: 25%;
+	height: 35%;
+}
+#iceland tr:nth-child(1) td:nth-child(2){
+	background-color: white;
+	width: 5%;
+}
+#iceland tr:nth-child(1) td:nth-child(3){
+	background-color: red;
+	width: 10%;
+
+}
+#iceland tr:nth-child(1) td:nth-child(4){
+	background-color: white;
+	width: 10%;
+}
+#iceland tr:nth-child(1) td:nth-child(5){
+	background-color: blue;
+}
+#iceland tr:nth-child(2) td:nth-child(1){
+	background-color: white;
+	width: 5%;
+	height: 5%;
+}
+#iceland tr:nth-child(2) td:nth-child(2){
+	background-color: red;
+	width: 10%;
+}
+#iceland tr:nth-child(2) td:nth-child(3){
+	background-color: white;
+}
+#iceland tr:nth-child(3){
+	background-color: red;
+	height:10%;
+}
+#iceland tr:nth-child(4) td:nth-child(1){
+	background-color: white;
+	width: 5%;
+	height: 5%;
+}
+#iceland tr:nth-child(4) td:nth-child(2){
+	background-color: red;
+	width: 10%;
+}
+#iceland tr:nth-child(4) td:nth-child(3){
+	background-color: white;
+}
+#iceland tr:nth-child(5) td:nth-child(1){
+	background-color: blue;
+	width: 25%;
+}
+#iceland tr:nth-child(5) td:nth-child(2){
+	background-color: white;
+	width: 10%;
+}
+#iceland tr:nth-child(5) td:nth-child(3){
+	background-color: red;
+	width: 10%;
+}
+#iceland tr:nth-child(5) td:nth-child(4){
+	background-color: white;
+	width: 10%;
+}
+#iceland tr:nth-child(5) td:nth-child(5){
+	background-color: blue;
+}
+
+
